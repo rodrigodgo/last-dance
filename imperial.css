@@ -45,7 +45,7 @@ main{
 
 .banner-principal{
     height: 720px;
-    background-image: url('/img/fff.jpg');
+    background-image: url('./imagens/fff.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
