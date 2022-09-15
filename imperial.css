@@ -1,13 +1,15 @@
 * {
     margin: 0px;
     text-decoration: none;
+    padding: 0px;
 
 }
 
-body {
+html, body {
     /*https://coolors.co/c8c8c8-dc965a-242325-006992-51cb20*/
 
     background-color: #C8C8C8;
+    min-height: 100vh;
 
 
 }
@@ -20,16 +22,25 @@ header {
 }
 .social-media a {
     color: #51CB20;
-    font-size: 1.5rem;
+    font-size: 2.5vh;
     margin: 0px 8px 0px 0px;
     text-decoration: none;
     transition-duration: 0.2s;
+    
 }
 
 .social-media a:hover {
     background-color: #242325;
     color: #50cb209c;
+    
  
+}
+
+div.imp > img {
+    width: 7.0vh;
+    height: 7.0vh;
+    
+
 }
 
 .imp {
@@ -37,6 +48,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 0.5em;
+    
 }
 
 main{
@@ -44,7 +56,7 @@ main{
 }
 
 .banner-principal{
-    height: 720px;
+    height: 70vh;
     background-image: url('./imagens/fff.jpg');
     background-position: center;
     background-size: cover;
@@ -61,7 +73,8 @@ main{
 
 
 .banner-principal p {
-    font-size: 1.1em;
+    font-size: 2.0em;
+    
     margin: 10px;
     
 
@@ -87,15 +100,18 @@ main{
 .banner-principal .btn-whatsaap i {
     margin: 10px 12px 10px 0px;
     color: white;
-    font-size: 2rem;
+    
     transition-duration: 0.2s;
     text-decoration: none;
+    font-size: 2.0em;
+
 }
 
 
 
 .banner-principal .btn-whatsaap p {
-    width: 100%;
+   
+    
     color: white;
 }
 
@@ -106,7 +122,15 @@ main{
     text-align: center;
     padding: 20px;
     
+    
 }
+
+div > .player > img {
+    width: 20.0vh;
+    height: 20.0vh;
+}
+
+
 
 .container-players .player {
     margin: 0px 30px 0px 30px;
@@ -122,7 +146,7 @@ main{
 }
 
 .container-players .player p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 footer {
@@ -133,6 +157,10 @@ footer {
     justify-content: center;
     align-items: center;
     height: 5rem;
+}
+
+main > div > h1 {
+    font-size: 3em;
 }
 
 
