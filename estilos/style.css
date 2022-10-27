@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*https://coolors.co/c8c8c8-dc965a-242325-006992-51cb20*/
+* {
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color:#242325 ;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px 12px 0px;
+}
+
+header > div.social-media > a {
+    color: #51CB20;
+    font-size: 3vh;
+    margin: 0px 8px 0px 0px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+div.social-media > a:hover {
+    background-color: #242325;
+    color: #50cb209c;
+}
+
+div.imp   {
+    background-color: #006992;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+ div#impimg {
+    background: url(../imagens/impimg.jpg) no-repeat;
+    background-size: cover;
+    height: 75px;
+    width: 75px;
+    margin-top: 10px;
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
